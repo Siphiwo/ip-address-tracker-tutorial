@@ -15,3 +15,5 @@ Accept IP from input, do a http request and update information displayed on app
 
 - Step 4: 
 Update map marker using coordinates recieved from api response.
+
+![ip-address-tracker-thumbnail](https://github.com/Siphiwo/ip-address-tracker-tutorial/blob/master/splash-screen.png)
