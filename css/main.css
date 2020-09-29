@@ -1,0 +1,92 @@
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    box-sizing: inherit;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    color: #969696;
+}
+
+h1.title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.form-container {
+    background: url('/app/assests/pattern-bg.png') no-repeat 100% 100% / cover;
+    text-align: center;
+    padding: 20px;
+    min-height: 200px;
+}
+.form-elements {
+    position: relative;
+    max-width: 380px;
+    margin: auto;
+}
+.form-control {
+    padding: 15px;
+    min-width: 380px;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn-dark {
+    background-color: #2b2b2b;
+    padding: 15px;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+.display-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -60px;
+    background-color: #fff;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+    min-height: 130px;
+    position: relative;
+    z-index: 1000;
+    padding: 30px;
+}
+.info-block {
+    border-right: 1px solid;
+    min-height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 15px;
+}
+.info-block-last {
+    border-right: none;
+}
+
+.muted-title {
+    font-size: 11px;
+    text-transform: uppercase;
+}
+span.results {
+    font-weight: 500;
+    color: #2b2b2b;
+    font-size: 16px;
+}
+
+.map-container {
+    background-color: black;
+    margin-top: -70px;
+    min-height: 79vh;
+}
